@@ -11,7 +11,7 @@ The game ends when the counter reduces to 1, i.e., N == 1, and the last person t
 
 Given N, your task is to find the winner of the game.
 
-Update If they set counter to 1, Richard wins, because its Louise' turn and she cannot make a move.
+Update: If they set counter to 1, Richard wins, because its Louise' turn and she cannot make a move.
 
 Input Format 
 The first line contains an integer T, the number of testcases. 
@@ -34,6 +34,7 @@ Sample Input
 
 Sample Output
 Richard
+
 Explanation
 
 As 6 is not a power of 2, Louise reduces the largest power of 2 less than 6 i.e., 4, and hence the counter reduces to 2.
